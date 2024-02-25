@@ -1,0 +1,102 @@
+:root {
+  --color-1: #ff5f6d;
+  --font-size-btn: 20px;
+  --font-size-heading: 24px;
+  --font-size-para: 14px;
+}
+
+.section {
+  padding: 5%;
+  width: 100vw;
+  box-sizing: border-box;
+  /* height: 100vh; */
+}
+img {
+  width: 100%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.col {
+  width: 100%;
+}
+.col1 {
+  width: 10%;
+}
+.col2 {
+  width: 20%;
+}
+.col3 {
+  width: 30%;
+}
+.col4 {
+  width: 40%;
+}
+
+.col5 {
+  width: 50%;
+}
+.col6 {
+  width: 60%;
+}
+
+.col7 {
+  width: 70%;
+}
+.col8 {
+  width: 80%;
+}
+.col9 {
+  width: 90%;
+}
+.row1 {
+  height: 10%;
+}
+.row2 {
+  height: 20%;
+}
+.row3 {
+  height: 30%;
+}
+.row4 {
+  height: 40%;
+}
+.row5 {
+  height: 50%;
+}
+.row6 {
+  height: 60%;
+}
+.row7 {
+  height: 70%;
+}
+.row8 {
+  height: 80%;
+}
+.row9 {
+  height: 90%;
+}
+.row10 {
+  height: 100%;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 650px) {
+  .row {
+    /* width: ; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+    .col3 {
+        width: 90%;
+    }
+}

@@ -1,0 +1,83 @@
+.col-img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.row-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons{
+    /* display: flex; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-evenly   ; */
+    width: 100%;
+}
+/* Navbar container */
+.section {
+    background-color: #fff; /* Set background color to white */
+    padding: 10px 20px; /* Add padding */
+}
+
+/* Row container */
+.row {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Items will be spread out horizontally */
+    align-items: center; /* Align items vertically */
+}
+
+/* Logo */
+.logo {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+}
+
+.logo img {
+    max-height: 40px; /* Set maximum height for the logo */
+}
+
+/* Navbar list */
+.nav-list ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox */
+    /* align-items: center;  */
+    justify-content: space-evenly   ; /* Items will be spread out horizontally */
+}
+
+.nav-list ul li {
+    margin-left: 20px; /* Add space between menu items */
+}
+
+.nav-list ul li:first-child {
+    margin-left: 0; /* Remove margin for the first menu item */
+}
+
+.nav-list ul li a {
+    color: #333; /* Set text color to dark gray */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Set font size */
+    font-weight: bold; /* Set font weight */
+}
+
+.button{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 55px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+.button:hover{
+    background-color: #ff5f6d;
+}
+.nav-list ul li a:hover {
+    color: blue; /* Set text color to pink */
+}
